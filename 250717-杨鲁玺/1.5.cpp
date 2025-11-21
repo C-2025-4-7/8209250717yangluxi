@@ -1,9 +1,11 @@
 #include<iostream>
+using namespace std;
 int main() {
-	double F;//»ªÊÏÎÂ¶È
-	double C;//ÉãÊÏ¶È
-	std::cout << "ÇëÊäÈë»ªÊÏÎÂ¶È:" << std::endl;
-	std::cin >> F;
-	std::cout << "Æä¶ÔÓ¦µÄÉãÊÏ¶ÈÎª:" << (F - 32) / 1.8 << "¡ãC" << std::endl;
+	double F;
+	double C;
+	cout << "è¯·è¾“å…¥åæ°æ¸©åº¦:" ;
+	cin >> F;
+	cout << "å…¶å¯¹åº”çš„æ‘„æ°åº¦ä¸º:" << (F - 32) / 1.8 << "Â°C" << endl;
 	return 0;
+
 }
